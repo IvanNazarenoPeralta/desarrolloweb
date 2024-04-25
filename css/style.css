@@ -1,0 +1,227 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(194, 221, 106);
+    color: #000;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+.barra {
+    background-color: rgb(78, 10, 122);
+    padding: 10px 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+}
+
+.redes {
+    display: flex;
+}
+
+.redes-contacto{
+    align-items: center;
+    gap: 10px;
+}
+
+.redes a {
+    color: #fff;
+    margin-right: 15px;
+}
+
+/* Menú */
+.navbar {
+    background-color: rgba(141, 65, 151, 0.8);
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: rgb(69, 189, 119);
+    font-weight: bold;
+}
+
+/* Main */
+.main {
+    padding: 20px;
+}
+
+.bannerhome {
+   width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.info h1 {
+    color: rgb(78, 10, 122);
+    margin-bottom: 10px;
+}
+
+.texto {
+    margin-bottom: 20px;
+}
+
+.video-home {
+    margin-bottom: 20px;
+    width: 100%;
+    gap: 15px;
+}
+
+
+.col-md-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 500px);
+    grid-template-rows: repeat(1, 1fr);
+    width: 100%;
+
+}
+.catering h5 {
+text-align:  center;
+width: auto;
+}
+
+.animacion h5 {
+    text-align:  center;
+    width: auto;
+}
+
+.juegos h5 {
+        text-align:  center;
+        width: auto;
+}
+.col-md-3 p {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    max-width: 3fr;
+}
+.titulo1 {
+    text-align:  center;
+    }
+.mapa {
+    margin-bottom: 20px;
+    width: 100%;
+    gap: 15px;
+    align-items: center;
+}
+
+/* Formulario */
+form {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form input[type="date"],
+form input[type="number"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: rgb(78, 10, 122);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background-color: rgb(78, 10, 122);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.menu-lista-pie {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.menu-lista-pie li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.menu-lista-pie a {
+    color: #fff;
+}
+
+.redes-pie {
+    margin-top: 20px;
+}
+
+.redes-pie a {
+    color: #fff;
+    margin-right: 10px;
+}
+
+.redes-pie p {
+    margin-top: 10px;
+}
+
+/* Responsive */
+@media screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        margin-bottom: 10px;
+    }
+
+    .redes {
+        margin-bottom: 10px;
+    }
+
+    .navbar {
+        background-color: rgb(78, 10, 122);
+    }
+
+    .navbar-brand,
+    .nav-link {
+        color: #fff;
+    }
+}
