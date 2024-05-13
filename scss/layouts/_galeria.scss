@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: $primary-color;
+    color: $text-color;
+    line-height: 1.6;
+    box-sizing: border-box;
+
+    .main {
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px;
+        
+        .galeria {
+            width: 90%;
+            .titulo-galeria { 
+                @include titulo-estilos;
+                padding: 10px;
+            }
+            .texto-galeria { 
+                @include texto-estilos;
+            }
+            .galeria-container { 
+                width: 100vw;
+
+                .imagen { 
+                    width: 650px;
+                    height: 350px;
+                    padding: 20px;
+                    object-fit: cover;
+                    
+                }
+            }
+
+       
+        }
+} }
+//.galeria {
+//    padding: 20px;
+  // 
+
+    //&-container{
+        //display: grid;
+      //  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        //gap: 20px;
+        //@include imagenes(400px, 300px);
+      //  position: relative;
+        
+   // }
+
+//}

@@ -1,0 +1,43 @@
+/* Header */
+.barra {
+    background-color: $secondary-color;
+    padding: 10px 0;
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .logo {
+            width: 150px;
+        }
+
+        .redes {
+            display: flex;
+
+            .redes-contacto {
+                align-items: center;
+                gap: 10px;
+
+                a {
+                    color: $accent-color;
+                    margin-right: 15px;
+                }
+            }
+        }
+    }
+}
+/* Menú */
+.navbar {
+    background-color: rgba(141, 65, 151, 0.8);
+
+    .navbar-brand {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .nav-link {
+        color: $accent-color;
+        font-weight: bold;
+    }
+}

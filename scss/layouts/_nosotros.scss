@@ -1,0 +1,35 @@
+.main{
+
+    .historia-nosotros {
+        margin: 40px;
+        @include texto-estilos;
+        width: 90%;
+    }
+
+    .imgcontainer {
+        width: 90%;
+        .imgnosotros {
+            width: 600px;
+            height: 350px;
+            object-fit: cover;
+            justify-content: center;
+        }
+
+    }
+    .sobre-nosotros {
+        margin: 40px;
+        @include texto-estilos;
+        width: 90%;
+    }
+    .imgcontainer {
+        width: 90%;
+        .imgnosotros {
+            width: 600px;
+            height: 350px;
+            object-fit: cover;
+            justify-content: center;
+        }
+    }
+       
+
+}

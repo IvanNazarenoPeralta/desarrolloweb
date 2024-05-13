@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: $primary-color;
+    color: $text-color;
+    line-height: 1.6;
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+}
+
+.bannerhome {
+    width: 100%;
+    max-width: 2470px;
+    min-width: 300px;
+    margin: auto;
+
+    .banner {
+        width: 100%;
+        border-radius: 15px;
+        box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+        border: #000;
+        height: 550px;
+        margin-bottom: 30px;
+    }
+}
+.servicio {
+    .servicio-container {
+        display: flex; 
+        gap: 20px; 
+        align-items: center;
+    }
+
+    .contenido-servicio {
+        flex: 1;
+        margin: 20px;
+        padding: 20px;
+        .titulo-servicio {
+            text-align: center;
+        } 
+    } 
+    
+    
+    .imgservicios {
+        max-width: 900px;
+        height: auto;
+        width: auto; 
+        
+    }
+}

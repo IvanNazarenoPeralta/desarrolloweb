@@ -122,9 +122,7 @@
     </section>
     <main class="main">
       <div class="bannerhome">
-        <img
-          src="imagenes/imagen11.jpg"
-          alt="nombreimagen"/>
+        <img class="banner" src="imagenes/imagen11.jpg" alt="nombreimagen"/>
       </div>
 
       <section class="info">
@@ -146,8 +144,6 @@
             id="videohome"
             src="https://www.youtube.com/embed/Hm2HJW3OF8k"
             title="clover"
-            width="720"
-            height="400"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerpolicy="strict-origin-when-cross-origin"
@@ -157,7 +153,7 @@
       </section>
         <section class="col-md-3">
           <article class="catering">
-            <h5>catering</h5>
+            <h5>Catering</h5>
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae
               quas laudantium dicta libero laborum minus, accusantium hic optio
@@ -192,6 +188,7 @@
       <br>
       <br>
       <br>
+      <div class="mapa-container">
       <div class="mapa">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1015.7204568598512!2d-58.09395249647606!3d-34.85171204941095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2df2a72de34c9%3A0xbf533c50bc4d6b20!2sC.%208%202265%2C%20B1894%20Villa%20Elisa%2C%20Provincia%20de%20Buenos%20Aires!5e1!3m2!1ses-419!2sar!4v1711575336820!5m2!1ses-419!2sar"
@@ -203,8 +200,9 @@
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
-    </main>
-    <h4>Solicita tu presupuesto.</h4>
+    </div>
+
+    <h3 class="titulo1">Solicita tu presupuesto.</h3>
     <form action="#">
       <label for="Apellido y nombre">Apellido y Nombre</label>
       <input type="text" />
@@ -227,10 +225,13 @@
       <label for="">Descripcion</label>
       <textarea name="Mensaje" id="" cols="60" rows="6"></textarea>
       <br />
+      <div class="checkbox-container">
       <label for="">No soy un robot</label>
       <input type="checkbox" name="" id="" />
+    </div>
       <button>Enviar</button>
     </form>
+  </main>
 
     <footer>
       <ul class="menu-lista-pie">
