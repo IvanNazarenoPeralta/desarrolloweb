@@ -9,7 +9,7 @@
 
 /* Footer */
 footer {
-  background-color: rgb(78, 10, 122);
+  background-color: rgb(69, 161, 118);
   color: #fff;
   padding: 20px;
   text-align: center;
@@ -38,7 +38,7 @@ footer .redes-pie p {
 
 /* Header */
 .barra {
-  background-color: rgba(147, 80, 192, 0.575);
+  background-color: rgba(105, 147, 209, 0.575);
   padding: 10px 0;
 }
 .barra header {
@@ -57,7 +57,7 @@ footer .redes-pie p {
   gap: 10px;
 }
 .barra header .redes .redes-contacto a {
-  color: rgb(69, 189, 119);
+  color: rgba(53, 160, 142, 0.685);
   margin-right: 15px;
 }
 
@@ -70,13 +70,13 @@ footer .redes-pie p {
   font-weight: bold;
 }
 .navbar .nav-link {
-  color: rgb(69, 189, 119);
+  color: rgba(53, 160, 142, 0.685);
   font-weight: bold;
 }
 
 body {
   font-family: Arial, sans-serif;
-  background-color: rgba(194, 221, 106, 0.747);
+  background-color: rgba(84, 205, 226, 0.76);
   color: #000;
   line-height: 1.6;
 }
@@ -170,7 +170,7 @@ form .checkbox-container label {
 
 body {
   font-family: Arial, sans-serif;
-  background-color: rgba(194, 221, 106, 0.747);
+  background-color: rgba(84, 205, 226, 0.76);
   color: #000;
   line-height: 1.6;
   box-sizing: border-box;
@@ -205,7 +205,7 @@ body .main .galeria .galeria-container .imagen {
 
 body {
   font-family: Arial, sans-serif;
-  background-color: rgba(194, 221, 106, 0.747);
+  background-color: rgba(84, 205, 226, 0.76);
   color: #000;
   line-height: 1.6;
 }
@@ -236,7 +236,7 @@ body .container {
   margin: 50px;
 }
 .main .info h1 {
-  color: rgb(78, 10, 122);
+  color: rgb(69, 161, 118);
   margin: 30px;
   font-size: 45px;
 }
@@ -376,7 +376,7 @@ form .checkbox-container label {
     margin-bottom: 10px;
   }
   .navbar {
-    background-color: rgb(78, 10, 122);
+    background-color: rgb(69, 161, 118);
   }
   .navbar-brand, .nav-link {
     color: #fff;
@@ -429,7 +429,7 @@ form .checkbox-container label {
 
 body {
   font-family: Arial, sans-serif;
-  background-color: rgba(194, 221, 106, 0.747);
+  background-color: rgba(84, 205, 226, 0.76);
   color: #000;
   line-height: 1.6;
 }
